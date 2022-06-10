@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pagina web de blog de cafe">
+    
+    
+    
+    
+    <title>EAJ Café Blog</title>
+
+    <!--Preload-->
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+
+    
+
+
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" crossorigin="crossorigin" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" crossorigin="crossorigin" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+  
+    
+    <link rel="shortcut icon" href="../img/icono2.jpg" type="image/x-icon" as="image">
+
+    
+</head>
+<body>
+   
+    <header class="header"> <!--Para la imagen en background-image-->
+
+        <div class="contenedor"> <!--Para centrar el contenido-->
+
+            <div class="barra"> <!--Para aplicar flexbox y centrar el logo y la barra de navegacion-->
+            <a class="logo" href="index.html">
+                <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">decafé</span></h1>
+            </a>
+           <br>
+
+            <nav class="navegacion">
+                   <a class="navegacion__enlace" href="nosotros.html">Nosotros</a> <br>
+                   
+                   <a class="navegacion__enlace" href="cursos.html">Cursos</a>  <br>
+                   
+                   <a class="navegacion__enlace" href="contacto.html">Contacto</a>
+            </nav>  
+             </div>
+        </div>
+            
+        <div class="header__texto"> <!--Para el h2 y parrafo del contenido-->
+     <h2 class="no-margin">Blog de café con consejos y cursos</h2> <br> <br> <br>
+     <p class="no-margin">Aprende de los expertos con las mejores recetas y consejos</p>
+     </div>
+</header>
+
+<main class="contenedor" >
+<h3 class="centrar-texto">Contacto</h3>
+ <div class="contacto-bg"></div>
+
+<form class="formulario">
+
+<div class="campo">
+<label  class="campo__label" for="nombre">Nombre</label>
+<input class="campo__field" type="text" placeholder="Tu nombre"  id="nombre">
+</div>
+
+<div class="campo">
+<label class="campo__label" for="email">Email</label>
+<input class="campo__field" type="email"  id="email" placeholder="Tu Email"  >
+</div>
+
+<div class="campo">
+<label class="campo__label" for="textarea">Mensaje</label>
+<textarea  class="campo__field campo__field--textarea" name="" id="textarea" cols="30" rows="10"  ></textarea>
+</div>
+<div class="campo">
+    <input  class="boton boton__primario submit" type="submit" value="Enviar">
+</div>
+
+</form>
+</main>
+
+
+            
+
+
+
+
+
+  
+
+</div>    
+        <footer class="footer">
+            <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">decafé</span></h1>
+                </a>
+               <br>
+    
+                <nav class="navegacion">
+                       <a class="navegacion__enlace" href="nosotros.html">Nosotros</a> <br>
+                       
+                       <a class="navegacion__enlace" href="cursos.html">Cursos</a>  <br>
+                       
+                       <a class="navegacion__enlace" href="contacto.html">Contacto</a>
+                </nav>  
+            </div>
+                 </div>
+        </footer>
+
+
+<script src="/Js/script.js"></script>
+
+</body>
+</html>
